@@ -1,7 +1,17 @@
 # Bank Customer Churn Analysis
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Findings](#findings)
+- [Recommendations](#recommendations)
+
 ### Project Overview
-This project aims to analyze and  provide insight into Bank Customer churn. It explores the factors that might affect a customer exiting the bank. It is crucial for a bank to understand the underlying factors as the why customers leave the bank because it is more expensive to attract new customers than to retain existing customers.
+This project aims to analyze and  provide insight into Bank Customer churn. It explores the factors that might affect a customer exiting the bank. A bank must understand the underlying factors as the why customers leave the bank because it is more expensive to attract new customers than to retain existing customers.
 
 ### Data Sources
 The primary dataset used in this analysis is bank customer churn data from Kaggle (Click here). It contains information about each customer of a bank such as Age, gender, credit card usage, card type, balance, etc.  
@@ -37,8 +47,8 @@ EDA involves exploring the bank customer churn data to answer key questions such
 
 
 ### Data Analysis
-SQL QUERIES USED FOR VISUALIZATION IN TABLEAU
-```
+```SQL QUERIES USED FOR VISUALIZATION IN TABLEAU
+
 SELECT 
     COUNT(Exited) AS TotalCustomers,
     SUM(Exited) As ChurnedCustomers,
@@ -129,20 +139,36 @@ SELECT
     (SUM(Exited) / COUNT(Card_Type)) * 100.0  AS ChurnRate
 FROM Customer_Churn_Records
 GROUP BY Card_Type
-
 ```
 
 
-### Findings /Results 
+### Findings 
 The Insights from the analysis are summarised as follows:
 
 1. The churn rate of 20.45 suggests that a significant amount of customers have exited the bank while 79,55 indicates that these customers are still using one of the bank’s services.
-
+    
+<img width="454" alt="Screenshot 2024-02-13 at 14 30 50" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/dfaba410-b663-402a-bec3-1cccb1941477">
 
 2. The impact of demographic factors on churn rates:
+   
+   <img width="602" alt="Screenshot 2024-02-13 at 14 32 24" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/5f595c7a-00ba-4928-9788-8106d0661155">
  - The churn rate for males is 16.5%, while the churn rate for females is higher at 25.1%. This suggests that, on average, female customers have a higher propensity to churn compared to male customers.
+
+
+
+
+   <img width="668" alt="Screenshot 2024-02-13 at 14 32 06" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/ac4dc719-f687-4f45-8ac1-95a1e714f561">
+
  - The churn rate in Germany is relatively higher at 32.4% compared to France (16.1%) and Spain (16.7%). This indicates that customers in Germany are more likely to churn compared to customers in France and Spain.
+
+
+
+   
+<img width="353" alt="Screenshot 2024-02-13 at 14 33 04" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/fb547156-30ad-4688-b6b8-eb47aadb1a58">
+ 
   - The average age of churned customers is 44, while the average age of non-churned customers is 37. This shows that older customers, on average, are more likely to churn compared to younger customers.
+
+
 
 
 3. Churn and number of products and credit card ownership 
@@ -174,7 +200,7 @@ Similarly, the analysis also suggests that dissatisfaction exists among some cus
 
 
 
-### Recommendation
+### Recommendations
 1. The recommendations aim to address customer churn and satisfaction issues identified through the analysis:
 
 2. Develop retention strategies for female customers especially in Germany to address their specific needs and reduce churn.
