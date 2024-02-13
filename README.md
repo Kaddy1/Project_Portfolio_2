@@ -208,6 +208,7 @@ The Insights from the analysis are summarised as follows:
 
 
 7. Credit Scores and Churn
+   
    <img width="152" alt="Screenshot 2024-02-13 at 16 16 09" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/205750ce-6227-48c0-bd25-6cc4653d178b">
 
  - On average, customers who have churned have a credit score of 645, and those who have not churned have a credit score of 651.
@@ -218,19 +219,20 @@ The Insights from the analysis are summarised as follows:
 
 
 ### Recommendations
-1. The recommendations aim to address customer churn and satisfaction issues identified through the analysis:
 
-2. Develop retention strategies for female customers especially in Germany to address their specific needs and reduce churn.
+The recommendations aim to address customer churn and satisfaction issues identified through the analysis:
 
-3. Tailor retention campaigns to different segments based on demographics to improve satisfaction and loyalty.
+1. Develop retention strategies for female customers especially in Germany to address their specific needs and reduce churn.
 
-4. Promote the usage of multiple products and investigate the reason why customers with multiple products have high churn rates. 
+2. Tailor retention campaigns to different segments based on demographics to improve satisfaction and loyalty.
 
-5. There are no significant differences in churn rates between customers with and without credit cards. However,  customer engagement and retention can be improved by analyzing credit card offerings.
+3. Promote the usage of multiple products and investigate the reason why customers with multiple products have high churn rates. 
 
-6. Develop initiatives to improve overall customer satisfaction by addressing common issues affecting customer experiences. 
+4. There are no significant differences in churn rates between customers with and without credit cards. However, customer engagement and retention can be improved by analyzing credit card offerings.
 
-7. Investigate the relationship between credit scores and churn to understand additional factors affecting customer behavior.
+5. Develop initiatives to improve overall customer satisfaction by addressing common issues affecting customer experiences. 
+
+6. Investigate the relationship between credit scores and churn to understand additional factors affecting customer behavior.
 
 
 ### References
