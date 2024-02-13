@@ -14,7 +14,7 @@
 This project aims to analyze and  provide insight into Bank Customer churn. It explores the factors that might affect a customer exiting the bank. A bank must understand the underlying factors as the why customers leave the bank because it is more expensive to attract new customers than to retain existing customers.
 
 ### Data Sources
-The primary dataset used in this analysis is bank customer churn data from Kaggle (Click here). It contains information about each customer of a bank such as Age, gender, credit card usage, card type, balance, etc.  
+The primary dataset used in this analysis is bank customer churn data from [Kaggle](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn). It contains information about each customer of a bank such as Age, gender, credit card usage, card type, balance, etc.  
 
 
 ### Tools
@@ -204,14 +204,13 @@ The Insights from the analysis are summarised as follows:
 
  - The average satisfaction score for both churned and non-churned customers is 1. This indicates a high level of 
   dissatisfaction among customers who have churned.
- - Similarly, the analysis also suggests that dissatisfaction exists among some customers who are still with the bank the 
-  bank.
+ - Similarly, the analysis also suggests that dissatisfaction exists among some customers who are still with the bank.
 
 
 7. Credit Scores and Churn
    <img width="152" alt="Screenshot 2024-02-13 at 16 16 09" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/205750ce-6227-48c0-bd25-6cc4653d178b">
 
- - On average, customers who have churned have a credit score of 645 and those who have not churned have a credit score of 651.
+ - On average, customers who have churned have a credit score of 645, and those who have not churned have a credit score of 651.
  - Customers who have exited have slightly lower average credit scores compared to those who have not.
   Further investigations need to be done as credit score alone might not be the key driver to customer churn.
   
@@ -234,4 +233,6 @@ The Insights from the analysis are summarised as follows:
 7. Investigate the relationship between credit scores and churn to understand additional factors affecting customer behavior.
 
 
-Implementing these recommendations can help mitigate churn, improve customer satisfaction, and foster long-term relationships with customers, contributing to sustained growth and profitability.
+### References
+- [Kaggle](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn)
+
