@@ -171,10 +171,16 @@ The Insights from the analysis are summarised as follows:
 
 
 
-3. Churn and number of products and credit card ownership 
+3. Churn and number of products and credit card ownership
+
+   <img width="535" alt="Screenshot 2024-02-13 at 16 14 19" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/8e8c4390-dae3-4f42-b91b-08a86afc2a16">
+
   - Customers with one product have a churn rate of 28% which is relatively high. This   indicates that customers with fewer products are most likely to leave the bank.
   - The churn rate for customers with two products is 7.6% indicating that as customers engage with more products, their likelihood of leaving the bank decreases.
-  - Customers with three and four products have a churn rate of 82.8% and 100% which  is relatively high. This seems unusual and further investigations and analysis are need.
+  - Customers with three and four products have a churn rate of 82.8% and 100% which  is relatively high. This seems unusual and further investigations and analysis are needed.
+
+
+<img width="533" alt="Screenshot 2024-02-13 at 16 15 14" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/e08c3a64-97a2-4b31-b9c7-4a3c4997c3ee">
 
  - Churn and credit card ownership 
   - The churn rate for customers with credit cards and without credit cards is 20.2% and 20.8% respectively. 
@@ -182,20 +188,32 @@ The Insights from the analysis are summarised as follows:
   ownership alone might not be the main factor driving churn. 
 
 
+
+
+
 4. Satisfaction_Score and churn
-  The average satisfaction score for customers who have churned is 2 while the average satisfaction score for customers who have not churned is 3. This indicates that on average 
-  customers who have churned tend to have lower satisfaction scores.  
+
+
+
+   <img width="483" alt="Screenshot 2024-02-13 at 16 15 40" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/3f7bf993-0b2e-40c1-a6a0-23d085eae6b7">
+  - The average satisfaction score for customers who have churned is 2 while the average satisfaction score for customers who have not churned is 3.
+  - This indicates that on average customers who have churned tend to have lower satisfaction scores.  
 
 
 5. Identifying common features among dissatisfied customers
-  The average satisfaction score for both churned and non-churned customers is 1. This indicates a high level of dissatisfaction among customers who have churned.
-Similarly, the analysis also suggests that dissatisfaction exists among some customers who are still with the bank the bank.
+
+ - The average satisfaction score for both churned and non-churned customers is 1. This indicates a high level of 
+  dissatisfaction among customers who have churned.
+ - Similarly, the analysis also suggests that dissatisfaction exists among some customers who are still with the bank the 
+  bank.
 
 
 7. Credit Scores and Churn
- On average, customers who have churned have a credit score of 645 and those who have not churned have a credit score of 651.
- Customers who have exited have slightly lower average credit scores compared to those who have not.
- Further investigations need to be done as credit score alone might not be the key driver to customer churn.
+   <img width="152" alt="Screenshot 2024-02-13 at 16 16 09" src="https://github.com/Kaddy1/Project_Portfolio_2/assets/79577163/205750ce-6227-48c0-bd25-6cc4653d178b">
+
+ - On average, customers who have churned have a credit score of 645 and those who have not churned have a credit score of 651.
+ - Customers who have exited have slightly lower average credit scores compared to those who have not.
+  Further investigations need to be done as credit score alone might not be the key driver to customer churn.
   
 
 
