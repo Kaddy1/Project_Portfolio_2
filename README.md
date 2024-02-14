@@ -27,7 +27,7 @@ The primary dataset used in this analysis is bank customer churn data from [Kagg
 The following tasks were performed in this phase
 - Data loading and inspection
 - Checking of missing values and duplicates
-- Data Cleaning and formatting
+- Data Cleaning and formatting (the data appeared to be clean)
 
 
 ### Exploratory Data Analysis
