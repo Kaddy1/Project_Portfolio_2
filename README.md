@@ -11,10 +11,10 @@
 - [Recommendations](#recommendations)
 
 ### Project Overview
-This project aims to analyze and  provide insight into Bank Customer churn. It explores the factors that might affect a customer exiting the bank. A bank must understand the underlying factors as to why customers leave the bank as it is more expensive to attract new customers than to retain existing customers.
+This project aims to analyze and provide insight into Bank Customer churn. It explores the factors that might affect a customer exiting the bank. A bank must understand the underlying factors as to why customers leave the bank as it is more expensive to attract new customers than to retain existing customers.
 
 ### Data Sources
-The primary dataset used in this analysis is bank customer churn data from [Kaggle](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn). It contains information about each customer of a bank such as Age, gender, credit card usage, card type, balance, etc.  
+The primary dataset used in this analysis is bank customer churn data from [Kaggle](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn). The size of the dataset is 10000 and contains information about each customer of a bank such as Age, gender, credit card usage, card type, balance, etc.  
 
 
 ### Tools
